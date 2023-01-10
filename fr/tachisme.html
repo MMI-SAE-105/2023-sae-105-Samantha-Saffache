@@ -26,6 +26,13 @@
         
         
         <nav class="menu" id="mainNav"  x-show="menuIsOpen" x-transition.duration.500ms>
+
+            <button aria-controls="mainNav" id="close-btn" @click="menuIsOpen = ! menuIsOpen" 
+            class="menu__closeBtn">
+            <img class="menu__close" src="../public/icons/close.svg" alt="fermer">
+            </button>
+
+
             <a class="menu__link" href="billeterie.html">Exposition tachetistic</a>
 
             <div class="menu__group">
@@ -70,118 +77,117 @@
                 <p class="pageMouvement__artistsBlock__text">Découvrez des artistes</p>
             </div>
 
-            <div class="pageMouvement__artistsBlock__item">
-                <img class="pageMouvement__artistsBlock__image" src="../public/img/tachisme/image-2.webp" alt="Charles Lapicque">
-                <div class="pageMouvement__artistsBlock__group">
-                    <div class="pageMouvement__artistsBlock__nameDiv">
-                        <p class="pageMouvement__artistsBlock__name">Charles Lapicque</p>
+            <div class="pageMouvement__artistsBlock__itemGroup">
+                <div class="pageMouvement__artistsBlock__item">
+                    <img class="pageMouvement__artistsBlock__image" src="../public/img/tachisme/image-2.webp" alt="Charles Lapicque">
+                    <div class="pageMouvement__artistsBlock__group">
+                        <div class="pageMouvement__artistsBlock__nameDiv">
+                            <p class="pageMouvement__artistsBlock__name">Charles Lapicque</p>
+                        </div>
+                        <a class="pageMouvement__artistsBlock__link" href="charles-lapicque.html"><img src="../public/icons/arrow-right-mini.svg" alt=""></a>
+                        
                     </div>
-                    <a class="pageMouvement__artistsBlock__link" href="charles-lapicque.html"><img src="../public/icons/arrow-right-mini.svg" alt=""></a>
+                </div>
+                
+                <div class="pageMouvement__artistsBlock__item">
+                    <img class="pageMouvement__artistsBlock__image" src="../public/img/tachisme/image-3.webp" alt="André Lanskoy">
+                    <div class="pageMouvement__artistsBlock__group">
+                        <div class="pageMouvement__artistsBlock__nameDiv">
+                            <p class="pageMouvement__artistsBlock__name">André Lanskoy</p>
+                        </div>
+                        <a class="pageMouvement__artistsBlock__link" href="andre-lanskoy.html"><img src="../public/icons/arrow-right-mini.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="pageMouvement__artistsBlock__item">
+                    <img class="pageMouvement__artistsBlock__image" src="../public/img/tachisme/image-4.webp" alt="Wols">
+                    <div class="pageMouvement__artistsBlock__group">
+                        <div class="pageMouvement__artistsBlock__nameDiv">
+                            <p class="pageMouvement__artistsBlock__name">Wols</p>
+                        </div>
+                        <a class="pageMouvement__artistsBlock__link" href="wols.html"><img src="../public/icons/arrow-right-mini.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="pageMouvement__artistsBlock__item">
+                    <img class="pageMouvement__artistsBlock__image" src="../public/img/tachisme/image-5.webp" alt="Hans Hartung">
+                    <div class="pageMouvement__artistsBlock__group">
+                        <div class="pageMouvement__artistsBlock__nameDiv">
+                            <p class="pageMouvement__artistsBlock__name">Hans Hartung</p>
+                        </div>
+                        <a class="pageMouvement__artistsBlock__link" href="hans-hartung.html"><img src="../public/icons/arrow-right-mini.svg" alt=""></a>
+                    </div>
                 </div>
             </div>
 
-            
-            <div class="pageMouvement__artistsBlock__item">
-                <img class="pageMouvement__artistsBlock__image" src="../public/img/tachisme/image-3.webp" alt="André Lanskoy">
-                <div class="pageMouvement__artistsBlock__group">
-                    <div class="pageMouvement__artistsBlock__nameDiv">
-                        <p class="pageMouvement__artistsBlock__name">André Lanskoy</p>
-                    </div>
-                    <a class="pageMouvement__artistsBlock__link" href="andre-lanskoy.html"><img src="../public/icons/arrow-right-mini.svg" alt=""></a>
-                </div>
-            </div>
-
-            <div class="pageMouvement__artistsBlock__item">
-                <img class="pageMouvement__artistsBlock__image" src="../public/img/tachisme/image-4.webp" alt="Wols">
-                <div class="pageMouvement__artistsBlock__group">
-                    <div class="pageMouvement__artistsBlock__nameDiv">
-                        <p class="pageMouvement__artistsBlock__name">Wols</p>
-                    </div>
-                    <a class="pageMouvement__artistsBlock__link" href="wols.html"><img src="../public/icons/arrow-right-mini.svg" alt=""></a>
-                </div>
-            </div>
-
-            <div class="pageMouvement__artistsBlock__item">
-                <img class="pageMouvement__artistsBlock__image" src="../public/img/tachisme/image-5.webp" alt="Hans Hartung">
-                <div class="pageMouvement__artistsBlock__group">
-                    <div class="pageMouvement__artistsBlock__nameDiv">
-                        <p class="pageMouvement__artistsBlock__name">Hans Hartung</p>
-                    </div>
-                    <a class="pageMouvement__artistsBlock__link" href="hans-hartung.html"><img src="../public/icons/arrow-right-mini.svg" alt=""></a>
-                </div>
-            </div>
         </div>
 
 
+
+        <p class="pageMouvement__friseTitle">Quelques oeuvres</p>
+
         <div class="pageMouvement__frise">
 
-            <div class="pageMouvement__friseLine"></div>
+            <img class="pageMouvement__friseLine" src="/public/icons/line.svg" alt="">
 
-                <p class="pageMouvement__friseTitle">Quelques oeuvres</p>
+                
 
-                <div class="pageMouvement__friseBlock">
-                    <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-6.webp" alt="">
-                    <div class="pageMouvement__friseTextGroup">
-                        <p class="pageMouvement__friseName">L'alternance des violets</p>
-                        <p class="pageMouvement__friseDate">1961 - André Lanskoy</p>
-                    </div>
-                </div>
-
-                <div class="pageMouvement__friseBlock">
-                    <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-7.webp" alt="">
-                    <div class="pageMouvement__friseTextGroup">
-                        <p class="pageMouvement__friseName">T1958-3</p>
-                        <p class="pageMouvement__friseDate">1958 - Hans Hartung</p>
-                    </div>
-                </div>
-
+                <div class="pageMouvement__friseItems">
                     <div class="pageMouvement__friseBlock">
-                        <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-8.webp" alt="">
+                        <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-6.webp" alt="">
                         <div class="pageMouvement__friseTextGroup">
-                            <p class="pageMouvement__friseName">NT1955-23</p>
-                            <p class="pageMouvement__friseDate">1955 - Hans Hartung</p>
+                            <p class="pageMouvement__friseName">L'alternance des violets</p>
+                            <p class="pageMouvement__friseDate">1961 - André Lanskoy</p>
                         </div>
                     </div>
-
-                     <div class="pageMouvement__friseBlock">
-                        <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-9.webp" alt="">
+                    <div class="pageMouvement__friseBlock">
+                        <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-7.webp" alt="">
                         <div class="pageMouvement__friseTextGroup">
-                            <p class="pageMouvement__friseName">The Blue Phantom</p>
-                            <p class="pageMouvement__friseDate">1951 - Wols</p>
+                            <p class="pageMouvement__friseName">T1958-3</p>
+                            <p class="pageMouvement__friseDate">1958 - Hans Hartung</p>
                         </div>
-                     </div>
-            
-                     <div class="pageMouvement__friseBlock">
-                        <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-10.webp" alt="">
-                        <div class="pageMouvement__friseTextGroup">
-                            <p class="pageMouvement__friseName">Bleu optimiste</p>
-                            <p class="pageMouvement__friseDate">1951 - Wols</p>
+                    </div>
+                        <div class="pageMouvement__friseBlock">
+                            <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-8.webp" alt="">
+                            <div class="pageMouvement__friseTextGroup">
+                                <p class="pageMouvement__friseName">NT1955-23</p>
+                                <p class="pageMouvement__friseDate">1955 - Hans Hartung</p>
+                            </div>
                         </div>
-                     </div>
-            
-                     <div class="pageMouvement__friseBlock">
-                        <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-11.webp" alt="">
-                        <div class="pageMouvement__friseTextGroup">
-                            <p class="pageMouvement__friseName">Eclatement d’une nouvelle planète</p>
-                            <p class="pageMouvement__friseDate">1950 - André Lanskoy</p>
-                        </div>
-                     </div>
-            
-                     <div class="pageMouvement__friseBlock">
-                        <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-12.webp" alt="">
-                        <div class="pageMouvement__friseTextGroup">
-                            <p class="pageMouvement__friseName">Le Pardon</p>
-                            <p class="pageMouvement__friseDate">1946 - Charles Lapicque</p>
-                        </div>
-                     </div>
-            
-                     <div class="pageMouvement__friseBlock">
-                        <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-13.webp" alt="">
-                        <div class="pageMouvement__friseTextGroup">
-                            <p class="pageMouvement__friseName">Rencontre dans la campagne</p>
-                            <p class="pageMouvement__friseDate">1944 - Charles Lapicque</p>
-                        </div>
-                     </div>
+                         <div class="pageMouvement__friseBlock">
+                            <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-9.webp" alt="">
+                            <div class="pageMouvement__friseTextGroup">
+                                <p class="pageMouvement__friseName">The Blue Phantom</p>
+                                <p class="pageMouvement__friseDate">1951 - Wols</p>
+                            </div>
+                         </div>
+                         <div class="pageMouvement__friseBlock">
+                            <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-10.webp" alt="">
+                            <div class="pageMouvement__friseTextGroup">
+                                <p class="pageMouvement__friseName">Bleu optimiste</p>
+                                <p class="pageMouvement__friseDate">1951 - Wols</p>
+                            </div>
+                         </div>
+                         <div class="pageMouvement__friseBlock">
+                            <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-11.webp" alt="">
+                            <div class="pageMouvement__friseTextGroup">
+                                <p class="pageMouvement__friseName">Eclatement d’une nouvelle planète</p>
+                                <p class="pageMouvement__friseDate">1950 - André Lanskoy</p>
+                            </div>
+                         </div>
+                         <div class="pageMouvement__friseBlock">
+                            <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-12.webp" alt="">
+                            <div class="pageMouvement__friseTextGroup">
+                                <p class="pageMouvement__friseName">Le Pardon</p>
+                                <p class="pageMouvement__friseDate">1946 - Charles Lapicque</p>
+                            </div>
+                         </div>
+                         <div class="pageMouvement__friseBlock">
+                            <img class="pageMouvement__friseImage" src="../public/img/tachisme/image-13.webp" alt="">
+                            <div class="pageMouvement__friseTextGroup">
+                                <p class="pageMouvement__friseName">Rencontre dans la campagne</p>
+                                <p class="pageMouvement__friseDate">1944 - Charles Lapicque</p>
+                            </div>
+                         </div>
+                </div>
         </div>
                    
             
@@ -189,13 +195,19 @@
         
     </main>
 
-    <footer class="footer">
+  <footer class="footer">
         <div class="footer__top">
             <img class="footer__logo" src="../public/icons/logo.svg" alt="logo">
             <div class="footer__social">
-                <img class="footer__icon" src="../public/icons/facebook.svg" alt="facebook">
-                <img class="footer__icon" src="../public/icons/instagram.svg" alt="instagram">
-                <img class="footer__icon" src="../public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
+                <a class="footer__link" href="https://www.facebook.com/FondationCartier/">
+                    <img class="footer__icon" src="../public/icons/facebook.svg" alt="facebook">
+                </a>
+                <a class="footer__link" href="https://www.instagram.com/fondationcartier/">
+                    <img class="footer__icon" src="../public/icons/instagram.svg" alt="instagram">
+                </a>
+                <a class="footer__link" href="http://mmimontbeliard.com/">
+                    <img class="footer__icon" src="../public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
+                </a>
             </div>
         </div>
         <div class="footer__bottom">

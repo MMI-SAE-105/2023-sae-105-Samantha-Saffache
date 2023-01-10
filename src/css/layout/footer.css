@@ -26,7 +26,13 @@
 
 }
 
+.footer__link {
+
+}
+
 .footer__social {
+    display: flex;
+    gap: 12px;
 
 }
 
