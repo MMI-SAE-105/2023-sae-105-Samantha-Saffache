@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Fondation Cartier</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+
+    <header>
+        <a href="en-index.html"><img src="/public/icons/globe-1.svg" alt="langue"> </a>
+
+        
+        
+        <nav class="menu" id="mainNav"  x-show="menuIsOpen" x-transition.duration.500ms>
+            <a href="billeterie.html">Exposition tachetistic</a>
+            <a href="tachisme.html">Découvrir le tachisme</a>
+            <ul>
+                <li><a href="charles-lapicque.html">Charles Lapicque</a></li>
+                <li><a href="andre-lanskoy.html">André Lanskoy</a></li>
+                <li><a href="wols.html">Wols</a></li>
+                <li><a href="hans-hartung.html">Hans Hartung</a></li>
+            </ul>
+
+        </nav>
+
+        <a href="index.html"><img src="/public/icons/logo.svg" alt="logo"></a>
+
+        <button class="header__menuBtn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
+            <img src="/public/icons/menu.svg" alt="menu">
+            <span></span>
+        </button>
+    </header>
+
+<main>
+
+    <div>
+        <img src="/public/img/artiste/hans-hartung-2.webp" alt="">
+        <div>
+            <p>NT1955-23</p>
+            <p>1955</p>
+        </div>
+    </div>
+
+    <p>
+        TEXTE SUR L'OEUVRE
+    </p>
+
+
+
+
+</main> 
+
+<footer>
+    <img src="/public/icons/logo.svg" alt="logo">
+    <div>
+        <img src="/public/icons/facebook.svg" alt="facebook">
+        <img src="/public/icons/instagram.svg" alt="instagram">
+        <img src="/public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
+    </div>
+    <p>01 42 18 56 50</p>
+    <p>Fondation Cartier, <br>261 Bd Raspail, <br>75014 Paris</p>
+</footer>
+
+
+</body>
+</html>   
