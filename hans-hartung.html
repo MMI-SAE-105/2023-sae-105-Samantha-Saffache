@@ -18,9 +18,11 @@
 </head>
 <body>
 
- <main>   
+  
     <header>
         <a href="en-index.html"><img src="/public/icons/globe-1.svg" alt="langue"> </a>
+
+        
         
         <nav class="menu" id="mainNav"  x-show="menuIsOpen" x-transition.duration.500ms>
             <a href="billeterie.html">Exposition tachetistic</a>
@@ -32,15 +34,47 @@
                 <li><a href="hans-hartung.html">Hans Hartung</a></li>
             </ul>
 
-        
-            
         </nav>
+
+        <a href="index.html"><img src="/public/icons/logo.svg" alt="logo"></a>
 
         <button class="header__menuBtn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
             <img src="/public/icons/menu.svg" alt="menu">
             <span></span>
         </button>
     </header>
+
+<main>
+    <div>
+        <div>
+            <img src="/public/img/artiste/hans-hartung-1.webp" alt="">
+            <div>
+                <p>T1958-3</p>
+                <p>1958</p>
+            </div>
+            <div>
+                <a href="t1958-3.html">
+                    <p>en savoir plus</p>
+                </a>
+            </div>
+        </div>
+    
+        <div>
+            <img src="/public/img/artiste/hans-hartung-2.webp" alt="">
+            <div>
+                <p>NT1955-23</p>
+                <p>1955</p>
+            </div>
+            <div>
+                <a href="nt1955-23.html">
+                    <p>en savoir plus</p>
+                </a>
+            </div>
+        </div>
+    
+    </div>
+
+
 
  </main>
 
