@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Fondation Cartier</title>
-    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/vendors/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body class="body">
 
     <header class="header">
         <a class="english_link" href="/en/index.html"><img src="../public/icons/globe-1.svg" alt="langue"> </a>
@@ -48,26 +50,39 @@
     </header>
 
     <main class="main">
-        <img class="home__backgroungImage" src="../public/img/landing-page/image-0.webp" alt="Untitled par Karel Appel">
-        <h1 class="home__title">Tachisme</h1>
-        <h2 class="home__subtitle">l’art des
-            éclaboussures</h2>
 
-        <div class="home_composant1"_>
-            <a class="home__imageLink" href="billeterie.html"><img src="../public/img/landing-page/image-1.webp" alt="Fondation Cartier"></a>
-            <a class="home__titleLink" href="billeterie.html"><p>Expo tachetistic</p></a>
-            <a class="home__descriptionLink" href="billeterie.html"><p>du 13 avril au 23 juin 2023</p></a>
-            <div>
-                <a class="home__link" href="billeterie.html"><p>réserver un billet</p></a>
+        <div class="home__visual">
+            <img class="home__backgroungImage" src="../public/img/landing-page/image-0.webp" alt="Untitled par Karel Appel">
+            <p class="home__title">Tachisme</p>
+            <p class="home__subtitle">l’art des
+                éclaboussures</p>
+        </div>
+
+        <div class="home__composant1"_>
+            <a class="home__imageLink" href="billeterie.html"><img class="home__image1" src="../public/img/landing-page/image-1.webp" alt="Fondation Cartier"></a>
+            <p class="home__title1">Expo tachetistic</p>
+            <p class="home__description">du 13 avril au 23 juin 2023</p>
+
+            <a class="home__linkBtn" href="billeterie.html">
+            <div class="home__link">
+                <p>réserver un billet</p>
             </div>
+            </a>
+             
         </div>  
         
         <div class="home__composant2">
-            <a class="home__imageLink" href="tachisme.html"><img src="../public/img/landing-page/image-2.webp" alt="éclatement d'une nouvelle planète-1950-André-Lanskoy"></a>
-            <a class="home__titleLink" href="tachisme.html"><p>Découvrir le tachisme</p></a>
-            <div>
-                <a class="home__link" href="tachisme.html"><p>lire l'article</p></a>
-            </div>
+            <a class="home__imageLink" href="tachisme.html"><img class="home__image2" src="../public/img/landing-page/image-2.webp" alt="éclatement d'une nouvelle planète-1950-André-Lanskoy"></a>
+            <p class="home__title2">Découvrir le tachisme</p>
+
+            <a class="home__linkBtn" href="tachisme.html">
+                <div class="home__link">
+                    <p>lire l'article</p>
+                </div>
+            </a>
+
+
+               
         </div>
 
         <h2 class="form__title">Contactez-nous</h2>
@@ -92,14 +107,18 @@
     </main>
 
     <footer class="footer">
-        <img class="footer__logo" src="../public/icons/logo.svg" alt="logo">
-        <div class="footer__social">
-            <img class="footer__icon" src="../public/icons/facebook.svg" alt="facebook">
-            <img class="footer__icon" src="../public/icons/instagram.svg" alt="instagram">
-            <img class="footer__icon" src="../public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
+        <div class="footer__top">
+            <img class="footer__logo" src="../public/icons/logo.svg" alt="logo">
+            <div class="footer__social">
+                <img class="footer__icon" src="../public/icons/facebook.svg" alt="facebook">
+                <img class="footer__icon" src="../public/icons/instagram.svg" alt="instagram">
+                <img class="footer__icon" src="../public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
+            </div>
         </div>
-        <p class="footer__tel">01 42 18 56 50</p>
-        <p class="footer__adress">Fondation Cartier, <br>261 Bd Raspail, <br>75014 Paris</p>
+        <div class="footer__bottom">
+            <p class="footer__tel">01 42 18 56 50</p>
+            <p class="footer__adress">Fondation Cartier, <br>261 Bd Raspail, <br>75014 Paris</p>
+        </div>
     </footer>
     
 </body>

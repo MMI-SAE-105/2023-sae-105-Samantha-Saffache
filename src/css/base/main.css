@@ -1,38 +1,162 @@
+.body {
+    margin: 0px;
+}
+
 .main {
+    margin-left: 30px;
+    margin-right: 30px;
 
 }
 
+.home__visual {
+    position: relative;
+    margin-top: 12px;
+    
+}
+
 .home__backgroungImage {
+    margin-bottom: 16px;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
 
 }
 
 .home__title {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 110%;
+    padding-top: 112px;
+    margin-bottom: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: flex;
+    margin-top: 12px;
+    
 
 }
 
 .home__subtitle {
+    margin-top: 16px;
+    margin-bottom: 85px;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+
+    
 
 }
 
-.home_composant1 {
+.home__composant1 {
+    background: white;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.25);
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 22px;
+    margin-bottom: 57px;
+
 
 }
+
+
 
 .home__imageLink {
 
 }
 
-.home__titleLink {
+.home__image1 {
+    max-width: 100%;
 
 }
 
-.home__descriptionLink {
 
+
+
+
+.home__title1 {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 110%;
+    text-decoration: none;
+    color: black;
+    margin-top: 8px;
+    margin-bottom: -15px;
+
+}
+
+
+.home__composant2 {
+    background: white;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.25);
+    padding-bottom: 22px;
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+
+.home__image2 {
+    max-width: 100%;
+
+}
+
+.home__title2 {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 110%;
+    margin-top: 13px;
+
+
+}
+
+.home__description {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+    text-decoration: none;
+    color: black;
+
+}
+
+.home__linkBtn {
+    text-decoration: none;
+    
 }
 
 .home__link {
+    background: #F0F1FF;
+   
+    margin-right: 142px;
+    
+    color: black;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
 
 }
+
 
 
 

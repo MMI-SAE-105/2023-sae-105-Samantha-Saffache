@@ -1,8 +1,28 @@
 .footer {
+    background: #F0F1FF;
+    padding-top: 69px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+
+}
+
+.footer__top {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__bottom {
 
 }
 
 .footer__logo {
+    
 
 }
 
@@ -19,5 +39,5 @@
 }
 
 .footer__adress {
-    
+
 }

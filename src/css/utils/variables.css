@@ -1,0 +1,14 @@
+:root {
+    /* Color styles */
+--fushia: rgba(156, 67, 114, 1);
+--rose-pale: rgba(226, 189, 215, 1);
+--beige: rgba(238, 225, 217, 1);
+--rose-nude: rgba(188, 145, 163, 1);
+--violet: rgba(86, 11, 86, 1);
+
+/* Effect styles */
+--blur:  2px 2px 16px rgba(0, 0, 0, 0.15);
+--button:  2px 2px 10px rgba(0, 0, 0, 0.25);
+--composant:  0px 4px 28px rgba(0, 0, 0, 0.25);
+
+}

@@ -9,7 +9,7 @@ max-width width width
     /* change le box model */
     }
 
-    img {
+    .carroussel__img {
       max-width: 100%;
       height: auto;
     }

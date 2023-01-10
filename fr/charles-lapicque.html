@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Fondation Cartier</title>
-    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/vendors/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body class="body">
 
     <header class="header">
         <a class="english_link" href="/en/index.html"><img src="../public/icons/globe-1.svg" alt="langue"> </a>
@@ -122,15 +124,19 @@
    </main>
 
    <footer class="footer">
-    <img class="footer__logo" src="../public/icons/logo.svg" alt="logo">
-    <div class="footer__social">
-        <img class="footer__icon" src="../public/icons/facebook.svg" alt="facebook">
-        <img class="footer__icon" src="../public/icons/instagram.svg" alt="instagram">
-        <img class="footer__icon" src="../public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
+    <div class="footer__top">
+        <img class="footer__logo" src="../public/icons/logo.svg" alt="logo">
+        <div class="footer__social">
+            <img class="footer__icon" src="../public/icons/facebook.svg" alt="facebook">
+            <img class="footer__icon" src="../public/icons/instagram.svg" alt="instagram">
+            <img class="footer__icon" src="../public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
+        </div>
     </div>
-    <p class="footer__tel">01 42 18 56 50</p>
-    <p class="footer__adress">Fondation Cartier, <br>261 Bd Raspail, <br>75014 Paris</p>
-</footer>  
+    <div class="footer__bottom">
+        <p class="footer__tel">01 42 18 56 50</p>
+        <p class="footer__adress">Fondation Cartier, <br>261 Bd Raspail, <br>75014 Paris</p>
+    </div>
+</footer>
    
 </body>
 </html>

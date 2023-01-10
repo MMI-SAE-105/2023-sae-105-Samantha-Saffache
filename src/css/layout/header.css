@@ -1,6 +1,17 @@
 .header {
-
+    background: #F0F1FF;
+    padding-top: 51px;
+    padding-bottom: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
 
 .english_link {
 
@@ -11,5 +22,7 @@
 }
 
 .header__menuBtn {
+    background: none;
+    border: none;
 
 }
