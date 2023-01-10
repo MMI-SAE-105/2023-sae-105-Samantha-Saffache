@@ -14,6 +14,167 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+<body>
+    <header>
+        <a href="en-index.html"><img src="/public/icons/globe-1.svg" alt="langue"> </a>
+        
+        <nav class="menu" id="mainNav"  x-show="menuIsOpen" x-transition.duration.500ms>
+            <a href="billeterie.html">Exposition tachetistic</a>
+            <a href="tachisme.html">Découvrir le tachisme</a>
+            <ul>
+                <li><a href="charles-lapicque.html">Charles Lapicque</a></li>
+                <li><a href="andre-lanskoy.html">André Lanskoy</a></li>
+                <li><a href="wols.html">Wols</a></li>
+                <li><a href="hans-hartung.html">Hans Hartung</a></li>
+            </ul>
 
+        
+            
+        </nav>
 
+        <button class="header__menuBtn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
+            <img src="/public/icons/menu.svg" alt="menu">
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <div>
+            <img src="/public/img/tachisme/image-1.webp" alt="Eclatement d’une nouvelle planète - André Lanskoy">
+            <p>Découvrir le tachisme</p>
+        </div>
+
+        <div>
+            <p>Le tachisme est un style de peinture abstraite répandu en France dans les années 1950.</p>
+        </div>
+
+        <p>Ce mouvement est souvent considéré comme l'équivalent européen de la tendance de l'expressionnisme abstrait américain représentée par l'action painting. Il désigne l'un des aspects de l'art informel, au sein de l'une de ses composantes dénommée abstraction lyrique.
+        </p>
+
+        <p>Le terme « tachisme » est utilisé vers 1952 en France par le critique d'art Michel Tapié. Tachisme vient du nom « tâche » et renvoie à un processus de création fait à partir de la tâche qui éclabousse ou goutte sur le support.
+        </p>
+
+        <div>
+            <div>
+                <p>Découvrez des artistes</p>
+            </div>
+
+            <div>
+                <img src="/public/img/tachisme/image-2.webp" alt="Charles Lapicque">
+                <div>
+                    <p>Charles Lapicque</p>
+                    <a href="charles-lapicque.html"><img src="/public/icons/arrow-right-mini.svg" alt=""></a>
+                </div>
+            </div>
+
+            
+            <div>
+                <img src="/public/img/tachisme/image-3.webp" alt="André Lanskoy">
+                <div>
+                    <p>André Lanskoy</p>
+                    <a href="andre-lanskoy.html"><img src="/public/icons/arrow-right-mini.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div>
+                <img src="/public/img/tachisme/image-4.webp" alt="Wols">
+                <div>
+                    <p>Wols</p>
+                    <a href="wols.html"><img src="/public/icons/arrow-right-mini.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div>
+                <img src="/public/img/tachisme/image-5.webp" alt="Hans Hartung">
+                <div>
+                    <p>Hans Hartung</p>
+                    <a href="hans-hartung.html"><img src="/public/icons/arrow-right-mini.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="line">
+
+            <div>
+                <img src="/public/img/tachisme/image-6.webp" alt="">
+                <div>
+                    <p>L'alternance des violets</p>
+                    <p>1961 - André Lanskoy</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="/public/img/tachisme/image-7.webp" alt="">
+                <div>
+                    <p>T1958-3</p>
+                    <p>1958 - Hans Hartung</p>
+                </div>
+            </div>    
+
+                <div>
+                    <img src="/public/img/tachisme/image-8.webp" alt="">
+                    <div>
+                        <p>NT1955-23</p>
+                        <p>1955 - Hans Hartung</p>
+                    </div> 
+                </div>            
+
+                 <div>
+                    <img src="/public/img/tachisme/image-9.webp" alt="">
+                    <div>
+                        <p>The Blue Phantom</p>
+                        <p>1951 - Wols</p>
+                    </div> 
+                 </div> 
+                 
+                 <div>
+                    <img src="/public/img/tachisme/image-10.webp" alt="">
+                    <div>
+                        <p>Bleu optimiste</p>
+                        <p>1951 - Wols</p>
+                    </div> 
+                 </div> 
+                 
+                 <div>
+                    <img src="/public/img/tachisme/image-11.webp" alt="">
+                    <div>
+                        <p>Eclatement d’une nouvelle planète</p>
+                        <p>1950 - André Lanskoy</p>
+                    </div> 
+                 </div> 
+                 
+                 <div>
+                    <img src="/public/img/tachisme/image-12.webp" alt="">
+                    <div>
+                        <p>Le Pardon</p>
+                        <p>1946 - Charles Lapicque</p>
+                    </div> 
+                 </div> 
+                 
+                 <div>
+                    <img src="/public/img/tachisme/image-13.webp" alt="">
+                    <div>
+                        <p>Rencontre dans la campagne</p>
+                        <p>1944 - Charles Lapicque</p>
+                    </div> 
+                 </div> 
+                   
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <img src="/public/icons/logo.svg" alt="logo">
+        <div>
+            <img src="/public/icons/facebook.svg" alt="facebook">
+            <img src="/public/icons/instagram.svg" alt="instagram">
+            <img src="/public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
+        </div>
+        <p>01 42 18 56 50</p>
+        <p>Fondation Cartier, <br>261 Bd Raspail, <br>75014 Paris</p>
+    </footer>
+
+</body>
+</html>
 
