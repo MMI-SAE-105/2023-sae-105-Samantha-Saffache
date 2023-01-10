@@ -101,6 +101,7 @@
     padding-top: 13px;
     padding-left: 16px;
     padding-right: 16px;
+    margin-bottom: 73px;
 
 }
 
@@ -157,10 +158,24 @@
 
 }
 
-
+.form__block {
+    background: #FFFAE7;
+    padding-top: 39px;
+    padding-bottom: 53px;
+    padding-left: 21px;
+    padding-right: 53px;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.25);
+    margin-bottom: 106px;
+}
 
 
 .form__title {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    margin-bottom: 31px;
 
 }
 
@@ -169,21 +184,55 @@
 }
 
 .form__section {
+    display: flex;
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
 
 }
 
 .form__label {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
 
 }
 
 .form__input {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    border: none;
+    min-height: 24px;
 
 }
 
 .form__textarea {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    border: none;
+    min-height: 76px;
 
 }
 
 .form__btn {
+    background-color: #F0F1FF;
+    border-radius: 14px;
+    border: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 42px;
+    padding-right: 42px;
+
     
 }
