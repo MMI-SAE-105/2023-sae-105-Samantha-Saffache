@@ -18,30 +18,35 @@
 </head>
 <body>
 
-    <header>
-        <a href="/en/index.html"><img src="../public/icons/globe-1.svg" alt="langue"> </a>
+    <header class="header">
+        <a class="english_link" href="/en/index.html"><img src="../public/icons/globe-1.svg" alt="langue"> </a>
 
         
         
         <nav class="menu" id="mainNav"  x-show="menuIsOpen" x-transition.duration.500ms>
-            <a href="billeterie.html">Exposition tachetistic</a>
-            <a href="tachisme.html">Découvrir le tachisme</a>
-            <ul>
-                <li><a href="charles-lapicque.html">Charles Lapicque</a></li>
-                <li><a href="andre-lanskoy.html">André Lanskoy</a></li>
-                <li><a href="wols.html">Wols</a></li>
-                <li><a href="hans-hartung.html">Hans Hartung</a></li>
-            </ul>
+            <a class="menu__link" href="billeterie.html">Exposition tachetistic</a>
+
+            <div class="menu__group">
+                <a class="menu__link" href="tachisme.html">Découvrir le tachisme</a>
+                    <div class="menu__subLinkGroup">
+                        <a class="menu__subLink" href="charles-lapicque.html">Charles Lapicque</a>
+                        <a class="menu__subLink" href="andre-lanskoy.html">André Lanskoy</a>
+                        <a class="menu__subLink" href="wols.html">Wols</a>
+                        <a class="menu__subLink" href="hans-hartung.html">Hans Hartung</a>
+                    </div>
+            </div>
+            
 
         </nav>
 
-        <a href="index.html"><img src="../public/icons/logo.svg" alt="logo"></a>
+        <a class="header__logo" href="index.html"><img src="../public/icons/logo.svg" alt="logo"></a>
 
         <button class="header__menuBtn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
             <img src="../public/icons/menu.svg" alt="menu">
             <span></span>
         </button>
     </header>
+
 
 
 <main>
@@ -151,15 +156,15 @@
 
 </main>
 
-<footer>
-    <img src="../public/icons/logo.svg" alt="logo">
-    <div>
-        <img src="../public/icons/facebook.svg" alt="facebook">
-        <img src="../public/icons/instagram.svg" alt="instagram">
-        <img src="../public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
+<footer class="footer">
+    <img class="footer__logo" src="../public/icons/logo.svg" alt="logo">
+    <div class="footer__social">
+        <img class="footer__icon" src="../public/icons/facebook.svg" alt="facebook">
+        <img class="footer__icon" src="../public/icons/instagram.svg" alt="instagram">
+        <img class="footer__icon" src="../public/icons/mmi-noir.svg" alt="Site MMI Montbéliard">
     </div>
-    <p>01 42 18 56 50</p>
-    <p>Fondation Cartier, <br>261 Bd Raspail, <br>75014 Paris</p>
+    <p class="footer__tel">01 42 18 56 50</p>
+    <p class="footer__adress">Fondation Cartier, <br>261 Bd Raspail, <br>75014 Paris</p>
 </footer>
 
 
