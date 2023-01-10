@@ -19,23 +19,27 @@
 <body>
 
     <header>
-        <a href="en-index.html"><img src="../public/icons/globe-1.svg" alt="langue"> </a>
+        <a class="english_link" href="/en/index.html"><img src="../public/icons/globe-1.svg" alt="langue"> </a>
 
         
         
         <nav class="menu" id="mainNav"  x-show="menuIsOpen" x-transition.duration.500ms>
-            <a href="billeterie.html">Exposition tachetistic</a>
-            <a href="tachisme.html">Découvrir le tachisme</a>
-            <ul>
-                <li><a href="charles-lapicque.html">Charles Lapicque</a></li>
-                <li><a href="andre-lanskoy.html">André Lanskoy</a></li>
-                <li><a href="wols.html">Wols</a></li>
-                <li><a href="hans-hartung.html">Hans Hartung</a></li>
-            </ul>
+            <a class="menu__link" href="billeterie.html">Exposition tachetistic</a>
+
+            <div class="menu__group">
+                <a class="menu__link" href="tachisme.html">Découvrir le tachisme</a>
+                    <div class="menu__subLinkGroup">
+                        <a class="menu__subLink" href="charles-lapicque.html">Charles Lapicque</a></li>
+                        <a class="menu__subLink" href="andre-lanskoy.html">André Lanskoy</a></li>
+                        <a class="menu__subLink" href="wols.html">Wols</a></li>
+                        <a class="menu__subLink" href="hans-hartung.html">Hans Hartung</a></li>
+                    </div>
+            </div>
+            
 
         </nav>
 
-        <a href="index.html"><img src="../public/icons/logo.svg" alt="logo"></a>
+        <a class="header__logo" href="index.html"><img src="../public/icons/logo.svg" alt="logo"></a>
 
         <button class="header__menuBtn" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
             <img src="../public/icons/menu.svg" alt="menu">
@@ -43,41 +47,41 @@
         </button>
     </header>
 
-    <main>
-        <img src="../public/img/landing-page/image-0.webp" alt="Untitled par Karel Appel">
-        <h1>Tachisme</h1>
-        <h2>l’art des
+    <main class="main">
+        <img class="home__backgroungImage" src="../public/img/landing-page/image-0.webp" alt="Untitled par Karel Appel">
+        <h1 class="home__title">Tachisme</h1>
+        <h2 class="home__subtitle">l’art des
             éclaboussures</h2>
 
-        <div>
-            <a href="billeterie.html"><img src="../public/img/landing-page/image-1.webp" alt="Fondation Cartier"></a>
-            <a href="billeterie.html"><p>Expo tachetistic</p></a>
-            <a href="billeterie.html"><p>du 13 avril au 23 juin 2023</p></a>
+        <div class="home__composant1">
+            <a class="home__imageLink" href="billeterie.html"><img src="../public/img/landing-page/image-1.webp" alt="Fondation Cartier"></a>
+            <a class="home__titleLink" href="billeterie.html"><p>Expo tachetistic</p></a>
+            <a class="home__descriptionLink" href="billeterie.html"><p>du 13 avril au 23 juin 2023</p></a>
             <div>
-                <a href="billeterie.html"><p>réserver un billet</p></a>
+                <a class="home__link" href="billeterie.html"><p>réserver un billet</p></a>
             </div>
         </div>  
         
-        <div>
-            <a href="tachisme.html"><img src="../public/img/landing-page/image-2.webp" alt="éclatement d'une nouvelle planète-1950-André-Lanskoy"></a>
-            <a href="tachisme.html"><p>Découvrir le tachisme</p></a>
+        <div class="home__composant2">
+            <a class="home__imageLink" href="tachisme.html"><img src="../public/img/landing-page/image-2.webp" alt="éclatement d'une nouvelle planète-1950-André-Lanskoy"></a>
+            <a class="home__titleLink" href="tachisme.html"><p>Découvrir le tachisme</p></a>
             <div>
-                <a href="tachisme.html"><p>lire l'article</p></a>
+                <a class="home__link" href="tachisme.html"><p>lire l'article</p></a>
             </div>
         </div>
 
-        <h2>Contactez-nous</h2>
+        <h2 class="home__formTitle">Contactez-nous</h2>
         <div>
-            <form action="#">
-                <div>
-                    <label for="prénom">prénom</label>
+            <form class="home__form" action="#">
+                <div class="home__formSection">
+                    <label class="" for="prénom">prénom</label>
                     <input id="prénom" type="text">
                 </div>
-                <div>
+                <div class="home__formSection">
                     <label for="adresse-mail">adresse-mail</label>
                     <input id="adresse-mail*" type="text">
                 </div>
-                <div>
+                <div class="home__formSection">
                     <label for="message">message</label>
                     <textarea id="message" type="text"></textarea>
                 </div>

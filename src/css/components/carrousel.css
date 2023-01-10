@@ -4,12 +4,16 @@ display height flex flex none margin
 max-width width width
 */ 
 .carrousel {
+  position: relative;
+
     /* change le box model */
     }
+
     img {
       max-width: 100%;
       height: auto;
     }
+
     .carrousel_parent-ecrans {
       display: grid;
       grid-template-columns: 120px 120px 120px;
@@ -20,12 +24,38 @@ max-width width width
       width: 327px;
     
     }
+
     .carrousel_ecran {
       /* largeur du parent pour chaque enfant */
       width: 327px;
       /* permet de garder toute la largeur du parent */
       
     }
+
     .carrousel_ecran figure {
-      /* enlève les marges par défaut */
+      margin: 0px;
     }
+
+    /*-------------------------------------------------------------------------------------------------------------------*/
+
+    .carrousel_btn {
+      position: absolute;
+      top: 50%; /* centre verticalement */
+      transform: translateY(-50%); /* methode du point mort */
+      width: 2rem;
+      height: 2rem;
+      background: rgba(0,0,0,0.5);
+      border-radius: 50%;
+      border: none;
+      display: grid;
+      place-content: center;
+      color: #fff;
+    }
+    
+    .carrousel_btn-avant {
+      left: 0;
+    }
+    
+    .carrousel_btn-apres {
+      right: 0;
+    } 
