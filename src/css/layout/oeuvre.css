@@ -1,22 +1,47 @@
 .pageOeuvre__headBlock {
+    background-color: white;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.15);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 52px;
+    margin-bottom: 42px;
+    padding-top: 20px;
+    padding-bottom: 1px;
 
 }
 
 .pageOeuvre__headImage {
+    max-width: 100%;
 
 }
 .pageOeuvre__headText {
+    margin-top: 9px;
 
 }
 
 .pageOeuvre__headName {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 112%;
+    margin-bottom: 9px;
+    margin-top: 0px;
 
 }
 
 .pageOeuvre__headDate {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    margin-top: 0px;
+    
 
 }
 
 .pageOeuvre__text {
+    margin-bottom: 45px;
     
 }

@@ -38,10 +38,39 @@
             <div class="menu__group">
                 <a class="menu__link" href="tachisme.html">Découvrir le tachisme</a>
                     <div class="menu__subLinkGroup">
-                        <a class="menu__subLink" href="charles-lapicque.html">Charles Lapicque</a>
-                        <a class="menu__subLink" href="andre-lanskoy.html">André Lanskoy</a>
-                        <a class="menu__subLink" href="wols.html">Wols</a>
-                        <a class="menu__subLink" href="hans-hartung.html">Hans Hartung</a>
+
+                        <div class="menu__sublinkArtist">
+                            <a class="menu__subLink" href="charles-lapicque.html">Charles Lapicque</a>
+                            <div class="menu__subLink__oeuvreGroup">
+                                <a class="menu__subLink__oeuvre" href="le-pardon.html">Le Pardon</a>
+                                <a class="menu__subLink__oeuvre" href="rencontre-dans-la-campagne.html">Rencontre dans la campagne</a>
+                            </div>
+                        </div>
+
+                        <div class="menu__sublinkArtist">
+                            <a class="menu__subLink" href="andre-lanskoy.html">André Lanskoy</a>
+                            <div class="menu__subLink__oeuvreGroup">
+                                <a class="menu__subLink__oeuvre" href="alternance-des-violets.html">L'alternance des violets</a>
+                                <a class="menu__subLink__oeuvre" href="eclatement-d-une-nouvelle-planete.html">Éclatement d'une nouvelle planète</a>
+                            </div>
+                        </div>
+
+                        <div class="menu__sublinkArtist">
+                            <a class="menu__subLink" href="wols.html">Wols</a>
+                            <div class="menu__subLink__oeuvreGroup">
+                                <a class="menu__subLink__oeuvre" href="the-blue-phantom.html">The Blue Phantom</a>
+                                <a class="menu__subLink__oeuvre" href="bleu-otpimiste.html">Bleu optimiste</a>
+                            </div>
+                        </div>
+
+                        <div class="menu__sublinkArtist">
+                            <a class="menu__subLink" href="hans-hartung.html">Hans Hartung</a>
+                            <div class="menu__subLink__oeuvreGroup">
+                                <a class="menu__subLink__oeuvre" href="t1958-3.html">T1958-3</a>
+                                <a class="menu__subLink__oeuvre" href="nt1955-23.html">NT1955-23</a>
+                            </div>
+                        </div>
+
                     </div>
             </div>
             
@@ -83,8 +112,8 @@
            
 
             <div class="carrousel" x-data="{}">
-                <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><img src="../public/icons/arrow-left.svg" alt=""></button>
-                <button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"><img src="../public/icons/arrow-right.svg" alt=""></button>
+                <button class="carrousel_btn-avant" aria-label="slide précedant"><img src="../public/icons/arrow-left.svg" alt=""></button>
+                <button class="carrousel_btn-apres" aria-label="slide suivant"><img src="../public/icons/arrow-right.svg" alt=""></button>
                         <div class="carrousel_parent-ecrans" overflow-x: scroll; scroll-behavior: smooth;
                             scroll-snap-type: x mandatory;>
                             <div id="ecran-1" class="carrousel_ecran" scroll-snap-align: start;>
@@ -133,32 +162,35 @@
 
         <p class="pageBilleterie__text">Découvrez les œuvres des plus grand artistes de tachisme au monde.</p>
 
+
         <div class="pageBilleterie__tarifs">
             <h2 class="pageBilleterie__tarifsTitle">Tarifs</h2>
+            
 
-            <div class="pageBilleterie__tarifsBlock1">
-                <p class="pageBilleterie__tarifsText">Plein tarif</p>
-                <p class="pageBilleterie__tarifsText">Tarif réduit</p>
-                <p class="pageBilleterie__tarifsText">Réduction
-                    13-25 ans</p>
-                <p class="pageBilleterie__tarifsText">Fondation Cartier
-                    Pass</p>
-                <p class="pageBilleterie__tarifsText">Moins de 13 ans,<br>
-                    Laissez-passer annuel,<br>
-                    carte Icom,<br>
-                    carte de presse,<br>
-                    carte d'invalidité,<br>
-                    Fondation Cartier Pass,<br>
-                    Etudiants
-                </p>
-            </div>
-
-            <div class="pageBilleterie__tarifsBlock2">
-                <p class="pageBilleterie__tarifsText">11€</p>
-                <p class="pageBilleterie__tarifsText">7.50€</p>
-                <p class="pageBilleterie__tarifsText">5€</p>
-                <p class="pageBilleterie__tarifsText">18-50€</p>
-                <p class="pageBilleterie__tarifsText">gratuit</p>
+            <div class="pageBilleterie__tarifsFlex">
+                <div class="pageBilleterie__tarifsBlock1">
+                    <p class="pageBilleterie__tarifsText">Plein tarif</p>
+                    <p class="pageBilleterie__tarifsText">Tarif réduit</p>
+                    <p class="pageBilleterie__tarifsText">Réduction
+                        13-25 ans</p>
+                    <p class="pageBilleterie__tarifsText">Fondation Cartier
+                        Pass</p>
+                    <p class="pageBilleterie__tarifsText">Moins de 13 ans,<br>
+                        Laissez-passer annuel,<br>
+                        carte Icom,<br>
+                        carte de presse,<br>
+                        carte d'invalidité,<br>
+                        Fondation Cartier Pass,<br>
+                        Etudiants
+                    </p>
+                </div>
+                <div class="pageBilleterie__tarifsBlock2">
+                    <p class="pageBilleterie__tarifsText">11€</p>
+                    <p class="pageBilleterie__tarifsText">7.50€</p>
+                    <p class="pageBilleterie__tarifsText">5€</p>
+                    <p class="pageBilleterie__tarifsText">18-50€</p>
+                    <p class="pageBilleterie__tarifsText">gratuit</p>
+                </div>
             </div>
 
         </div>

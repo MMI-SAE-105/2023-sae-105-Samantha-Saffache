@@ -1,32 +1,90 @@
 .pageBilleterie__headBlock {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.25);
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    margin-top: 42px;
+    margin-bottom: 27px;
 
 }
 
 .pageBilleterie__headImage {
+    max-width: 100%;
 
 }
 
 .pageBilleterie__headTitle {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 110%;
+    margin-bottom: 0px;
+    margin-top: 11px;
 
 }
 
 .pageBilleterie__dateBlock {
+    background: #FFFAE7;
+    box-shadow: 2px 2px 11px 3px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-left: 33px;
+    margin-right: 33px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 27px;
 
 }
 
 .pageBilleterie__dateBlockText {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 110%;
+    text-align: center;
 
 }
 
 .pageBilleterie__dateBlock_date {
-
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
 }
 
-.pageBilleterie__dateBlockYear {
 
+
+.pageBilleterie__dateBlockYear {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 110%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    
 }
 
 .pageBilleterie__location {
+    display: flex;
+    margin-bottom: 27px;
+    margin-right: 40px;
+    margin-left: 40px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
 
 }
 
@@ -35,6 +93,15 @@
 }
 
 .pageBilleterie__locationText {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+    
 
 }
 
@@ -42,14 +109,43 @@
 
 
 .pageBilleterie__text {
+    margin-bottom: 54px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
 
 }
 
 .pageBilleterie__tarifs {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.15);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 106px;
+    
 
 }
 
-.ageBilleterie__tarifsTitle {
+.pageBilleterie__tarifsFlex {
+    display: flex;
+
+}
+
+.pageBilleterie__tarifsTitle {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110%;
+    margin-bottom: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
 
 }
 
@@ -57,14 +153,37 @@
 
 
 .pageBilleterie__tarifsBlock1 {
+    background: #F0F1FF;
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 14px;
+    padding-bottom: 19px;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .pageBilleterie__tarifsBlock2 {
+    background: #FFFAE7;
+    padding-top: 24px;
+    padding-bottom: 19px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
     
 } 
 
 .pageBilleterie__tarifsText {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 110%;
 
 }
 

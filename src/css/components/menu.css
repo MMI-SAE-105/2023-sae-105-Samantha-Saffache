@@ -13,13 +13,14 @@
 }
 
 .menu__group {
-    margin-top: -252px;
+    margin-top: -22px;
+    
    
 
 }
 
 .menu__link {
-    margin-top: 191px;
+    margin-top: 142px;
     margin-left: 41px;
     text-decoration: none;
     font-family: 'Kaisei Decol';
@@ -28,9 +29,14 @@
     font-size: 24px;
     line-height: 110%;
     color: black;
-    margin-bottom: 51px;
+   
     
     
+
+}
+
+.menu__sublinkArtist {
+    margin-bottom: 40px;
 
 }
 
@@ -41,6 +47,7 @@
     margin-top: 34px;
     
     
+    
 
 }
 
@@ -49,11 +56,31 @@
     text-decoration: none;
     font-family: 'Kaisei Decol';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 110%;
     color: black;
     margin-bottom: 14px;
+
+
+}
+
+.menu__subLink__oeuvreGroup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+
+}
+
+.menu__subLink__oeuvre {
+    text-decoration: none;
+    color: black;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 110%;
+    margin-bottom: 11px;
 
 }
 
