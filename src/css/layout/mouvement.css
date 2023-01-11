@@ -180,10 +180,15 @@
     flex-direction: column;
     flex-wrap: nowrap;
     margin-bottom: 147px;
+    background-image: url(/public/icons/line.svg);
+    background-repeat: no-repeat;
+    background-position: 69px 0%;
 
 
 }
 
+
+/*supprimé*/
 .pageMouvement__friseLine {
     z-index: 0;
     margin-left: -85px;
@@ -197,20 +202,21 @@
 .pageMouvement__friseItems {
     display: flex;
     flex-direction: column;
-    margin-top: -1769px;
     z-index: 1;
     margin-left: -31px;
     flex-direction: column;
     gap: 37px;
+    margin-top: 64px;
 
 }
 
 .pageMouvement__friseTitle {
     font-family: 'Kaisei Decol';
     font-style: normal;
-    font-weight: 700;
-    font-size: 19px;
+    font-weight: 1000;
+    font-size: 25px;
     line-height: 110%;
+    margin-bottom: 45px;
 
 }
 
