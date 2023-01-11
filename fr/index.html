@@ -148,6 +148,17 @@
             </form>
         </div>
 
+        <div class="horaires" x-data="{open:false}">
+        
+                    <button class="accordeon__button" @click="open = !open">nos horaires<img class="accordeon__image" src="/public/icons/chevron-down.svg" alt="flèche vers le bas"></button>
+        
+                    <div class="accordeon__block" x-show="open">
+                        <p class="accordeon__text" >Tous les jours de 11h à 20h, sauf le lundi.
+                            Nocturne le mardi, jusqu'à 22h.
+                            La fermeture des salles débute à 19h45 (21h45 les mardis).</p>
+                    </div>
+                </div>
+
     </main>
 
     <footer class="footer">
