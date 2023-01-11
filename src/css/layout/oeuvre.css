@@ -43,5 +43,10 @@
 
 .pageOeuvre__text {
     margin-bottom: 45px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 135%;
     
 }
