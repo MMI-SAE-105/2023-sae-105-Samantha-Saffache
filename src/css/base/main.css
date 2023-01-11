@@ -8,6 +8,21 @@
 
 }
 
+.lien__externe__marges {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.lien__externe {
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    margin-bottom: 50px;
+}
+
 .home__visual {
     position: relative;
     margin-top: 12px;
