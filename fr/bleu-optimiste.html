@@ -23,7 +23,7 @@
 
         
         
-        <nav class="menu" id="mainNav"  x-show="menuIsOpen" x-transition.duration.500ms>
+        <nav class="menu" id="mainNav"  x-show="menuIsOpen" x-transition:leave.duration.500ms>
 
             <button aria-controls="mainNav" id="close-btn" @click="menuIsOpen = ! menuIsOpen" 
             class="menu__closeBtn">
@@ -31,10 +31,16 @@
             </button>
 
 
-            <a class="menu__link" href="billeterie.html">Exposition tachetistic</a>
-
             <div class="menu__group">
-                <a class="menu__link" href="tachisme.html">Découvrir le tachisme</a>
+                <div class="menu__groupBigLink">
+                    <div class="menu__linkSpace">
+                        <a class="menu__link" href="billeterie.html">Exposition tachetistic</a>
+                    </div>
+                    <a class="menu__link" href="tachisme.html">Découvrir le tachisme</a>
+                </div>
+            
+
+                
                     <div class="menu__subLinkGroup">
 
                         <div class="menu__sublinkArtist">
@@ -72,6 +78,7 @@
                     </div>
             </div>
             
+            
 
         </nav>
 
@@ -82,6 +89,7 @@
             <span></span>
         </button>
     </header>
+
 
 
 <main class="main">
